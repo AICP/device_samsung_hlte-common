@@ -221,3 +221,4 @@ public class VibratorTuningPreference extends DialogPreference implements SeekBa
         return strength;
     }
 }
+
