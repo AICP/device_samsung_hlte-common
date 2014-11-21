@@ -521,9 +521,9 @@ on property:sys.boot_completed=1
     start qrngp
 
 service qseecomd /system/bin/qseecomd
-   class late_start
+   class core
    user root
-   group system
+   group root
 
 service mpdecision /system/bin/mpdecision --avg_comp
    user root
