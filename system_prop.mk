@@ -22,6 +22,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sdk.izat.premium_enabled=0 \
     ro.qc.sdk.izat.service_mask=0x0
 
+# NFC
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.nfc.port=I2C
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.netmgrd.qos.enable=true \
@@ -30,12 +34,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.lte_vrat_report=1 \
     persist.radio.mode_pref_nv10=1
 
-# Selinux Permissive
+# Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.adb.secure=0 \
-    ro.secure=0
-
-# Recovery
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.cwm.forbid_format=/efs,/persist,/boot,/firmware,/firmware-modem \
-    ro.cwm.forbid_mount=/efs,/persist,/boot,/firmware,/firmware-modem
+    wifi.interface=wlan0
