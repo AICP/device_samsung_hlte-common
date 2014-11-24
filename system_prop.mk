@@ -22,10 +22,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sdk.izat.premium_enabled=0 \
     ro.qc.sdk.izat.service_mask=0x0
 
-# NFC
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.nfc.port=I2C
-
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.netmgrd.qos.enable=true \
@@ -33,7 +29,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.apm_sim_not_pwdn=1 \
     persist.radio.lte_vrat_report=1 \
     persist.radio.mode_pref_nv10=1
-
-# Wifi
-PRODUCT_PROPERTY_OVERRIDES += \
-    wifi.interface=wlan0
