@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_PACKAGES += \
+    libxml2 \
     gps.msm8974
 
 PRODUCT_COPY_FILES += \
