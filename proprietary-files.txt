@@ -263,6 +263,10 @@ vendor/lib/librs_adreno_sha1.so
 vendor/lib/libRSDriver_adreno.so
 vendor/lib/libsc-a3xx.so
 
+# GPS
+etc/flp.conf
+vendor/lib/liblbs_core.so
+
 # Graphics firmware
 etc/firmware/a330_pfp.fw
 etc/firmware/a330_pm4.fw
