@@ -220,7 +220,7 @@ on post-fs-data
 
     # For disabling softkeys *FIXME*
     chown root system  /sys/class/sec/sec_touchkey/brightness
-    chmod 0664  /sys/class/sec/sec_touchkey/brightness
+    chmod 0444  /sys/class/sec/sec_touchkey/brightness
     chown root system  /sys/class/sec/sec_touchkey/max_brightness
     chmod 0664  /sys/class/sec/sec_touchkey/max_brightness
 
