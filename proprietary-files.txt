@@ -293,7 +293,7 @@ vendor/firmware/bcm2079xB4_pre_firmware.ncd
 vendor/lib/libqc-opt.so
 
 # Postprocessing
--app/PPPreference.apk
+-app/PPPreference/PPPreference.apk
 bin/mm-pp-daemon
 vendor/lib/libdisp-aba.so
 -vendor/lib/libmm-abl.so
