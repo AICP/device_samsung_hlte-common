@@ -231,8 +231,8 @@ vendor/lib/libthermalclient.so
 # DRM
 bin/qseecomd
 lib/drm/libfwdlockengine.so
-lib/liboemcrypto.so
-vendor/lib/drm/libdrmwvmplugin.so
+lib/drm/libdrmwvmplugin.so
+vendor/lib/liboemcrypto.so
 vendor/lib/libdrmdecrypt.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
@@ -241,7 +241,6 @@ vendor/lib/librpmb.so
 vendor/lib/libssd.so
 vendor/lib/libwvdrm_L1.so
 vendor/lib/libwvm.so
-vendor/lib/libWVphoneAPI.so
 vendor/lib/libWVStreamControlAPI_L1.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
