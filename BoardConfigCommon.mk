@@ -86,6 +86,9 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
+# Disable dex-preopt of prebuilts to save space
+DONT_DEXPREOPT_PREBUILTS := true
+
 # SELinux
 -include device/qcom/sepolicy/sepolicy.mk
 
