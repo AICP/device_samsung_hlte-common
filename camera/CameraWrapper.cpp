@@ -51,6 +51,8 @@ static struct hw_module_methods_t camera_module_methods = {
     .open = camera_device_open
 };
 
+#define KEY_VIDEO_FRAME_FORMAT "video-frame-format"
+
 camera_module_t HAL_MODULE_INFO_SYM = {
     .common = {
          tag: HARDWARE_MODULE_TAG,
@@ -117,6 +119,8 @@ static char *camera_fixup_getparams(int __attribute__((unused)) id,
      * this can be turned off, fixup the params to tell the Camera
      * that it really is okay to turn it off.
      */
+    params.setPreviewFormat("yuv420sp");
+    params.set(KEY_VIDEO_FRAME_FORMAT, "yuv420sp");
 
     const char* hfrValues = params.get(KEY_VIDEO_HFR_VALUES);
     if (hfrValues && *hfrValues && ! strstr(hfrValues, "off")) {
