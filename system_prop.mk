@@ -59,6 +59,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.telephony.mqanelements=6 \
     ro.telephony.ril_class=hlteRIL
-
-#AICP Device Maintainers
-ro.aicp.maintainer=semdoc (doc HD)
